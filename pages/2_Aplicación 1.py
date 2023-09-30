@@ -1,4 +1,5 @@
 import streamlit as st
+import time
 
-# Diseño personalizado
-st.header("Aplicacón 1")
+hora_actual = time.strftime("%H:%M:%S")
+st.write("La hora actual es:", hora_actual)
